@@ -33,8 +33,8 @@ function NavbarPage() {
 
   return (
     <nav style={navStyle}>
-      {['/', '/books', '/bookdetail', '/favorites', '/basket'].map((path, index) => {
-        const names = ['Home', 'Books', 'Bookdetail', 'Favorites', 'Basket'];
+      {['/', '/books', '/favorites', '/basket', '/adddata'].map((path, index) => {
+        const names = ['Home', 'Books', 'Favorites', 'Basket', 'Add Book'];
         return (
           <Link
             key={path}

@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Books() {
-  const url = "http://localhost:3001/books";
+  const url = "http://localhost:5000/books";
   const [data, setdata] = useState([]);
   const [isloading, setisloading] = useState(true);
 
@@ -28,8 +29,8 @@ function Books() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "auto auto auto auto", 
-            gap: "20px", 
+            gridTemplateColumns: "auto auto auto auto",
+            gap: "20px",
             justifyContent: "center",
             margin: "20px auto",
           }}
@@ -91,19 +92,23 @@ function Books() {
                   textAlign: "center",
                 }}
               >
-                <button
-                  style={{
-                    backgroundColor: "#007bff",
-                    color: "#fff",
-                    border: "none",
-                    padding: "10px 20px",
-                    borderRadius: "4px",
-                    fontSize: "14px",
-                    cursor: "pointer",
-                  }}
-                >
-                  Bookdetail
-                </button>
+                <Link to={`/bookdetail/${book.id}`} state={{ book }}>
+
+                  <button
+                    style={{
+                      backgroundColor: "#007bff",
+                      color: "#fff",
+                      border: "none",
+                      padding: "10px 20px",
+                      borderRadius: "4px",
+                      fontSize: "14px",
+                      cursor: "pointer",
+                    }}
+                  >
+                    Bookdetail
+                  </button>
+                </Link>
+
               </div>
             </div>
           ))}
