@@ -1,0 +1,101 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "img": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+        "type": "classic",
+        "price": "$10.99"
+      },
+      {
+        "id": 2,
+        "name": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "img": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
+        "type": "classic",
+        "price": "$9.99"
+      },
+      {
+        "id": 3,
+        "name": "1984",
+        "author": "George Orwell",
+        "img": "https://covers.openlibrary.org/b/id/153541-L.jpg",
+        "type": "dystopian",
+        "price": "$8.99"
+      },
+      {
+        "id": 4,
+        "name": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "img": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
+        "type": "romance",
+        "price": "$7.99"
+      },
+      {
+        "id": 5,
+        "name": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "img": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
+        "type": "fantasy",
+        "price": "$12.99"
+      },
+      {
+        "id": 6,
+        "name": "Moby Dick",
+        "author": "Herman Melville",
+        "img": "https://covers.openlibrary.org/b/id/5551101-L.jpg",
+        "type": "adventure",
+        "price": "$11.99"
+      },
+      {
+        "id": 7,
+        "name": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "img": "https://covers.openlibrary.org/b/id/8225635-L.jpg",
+        "type": "coming-of-age",
+        "price": "$10.49"
+      },
+      {
+        "id": 8,
+        "name": "The Alchemist",
+        "author": "Paulo Coelho",
+        "img": "https://covers.openlibrary.org/b/id/8108697-L.jpg",
+        "type": "philosophy",
+        "price": "$6.99"
+      },
+      {
+        "id": 9,
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "img": "https://covers.openlibrary.org/b/id/7984916-L.jpg",
+        "type": "fantasy",
+        "price": "$15.99"
+      },
+      {
+        "id": 10,
+        "name": "Brave New World",
+        "author": "Aldous Huxley",
+        "img": "https://covers.openlibrary.org/b/id/8773870-L.jpg",
+        "type": "dystopian",
+        "price": "$9.49"
+      },
+      {
+        "id": 11,
+        "name": "The Little Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "img": "https://covers.openlibrary.org/b/id/9259255-L.jpg",
+        "type": "philosophy",
+        "price": "$8.49"
+      },
+      {
+        "id": 12,
+        "name": "Frankenstein",
+        "author": "Mary Shelley",
+        "img": "https://covers.openlibrary.org/b/id/9221256-L.jpg",
+        "type": "gothic",
+        "price": "$7.49"
+      }
+    ]
+  }
+  
